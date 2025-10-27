@@ -8,6 +8,7 @@
  body {
   background-color: #f7f7f7;
   font-family: "Poppins", times, serif;
+  position: relative;
  }
 /* class selector */
  .header {
@@ -326,7 +327,8 @@ button {
   align-items: center;
   width: 100%;
   padding: 10px 0;
-  
+  position: fixed;
+  z-index: 1;
 }
 nav {
   display: flex;
